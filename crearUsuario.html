@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h2>Registrar nuevo usuario</h2>
+    <form action="procesarRegistro.php" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Juan" required>
+        <br>
+        <label for="name_user">usuario</label>
+        <input type="text" name="name_user" id="name_user" placeholder="juan01" required>
+         <br>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="pass" required>
+        <br>
+
+        <input type="submit" value="Registrar" name="btnRegistrar">
+        <br>
+      <!-- <a href="login.php"></a> -->
+    </form>
+</body>
+</html>
